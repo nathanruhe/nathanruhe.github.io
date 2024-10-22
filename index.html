@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathanruhe Portfolio</title>
+
+    <!-- --------- UNICONS --------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- FONTAWESOME --------- -->
+    <script src="https://kit.fontawesome.com/d882134d98.js" crossorigin="anonymous"></script>
+
+    <!-- --------- CSS --------- -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- --------- FAVICOIN --------- -->
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <!-- --------- HEADER --------- -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">N<span>a</span>than</a>
+
+            <div class="nav__menu show-menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+
+                    <li><a href="#about" class="nav__link">About</a></li>
+
+                    <li><a href="#services" class="nav__link">Services</a></li>
+
+                    <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ui uil-times"></i>
+                </div>
+            </div>
+
+            <div class="nav__socials">
+                <a href="https://www.linkedin.com/in/nathanruhe/" target="_blank" class="nav__social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/nathanruhe" target="_blank" class="nav__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/nathanruhe/" target="_blank" class="nav__social-link">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+
+                <a href="https://discord.com/users/1102680805261725767" target="_blank" class="nav__social-link">
+                    <i class="fa-brands fa-discord fa-sm"></i>
+                </a>
+            </div>
+
+            <div class="nav__btns">
+                <div class="rotar">
+                    <a href="#contact" class="nav__link-btn">Let's Talk</a>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+
+            <!-- PRUEBA -->
+            <button id="themeToggle" class="theme-btn">
+                <span id="themeIcon">🌙</span> <!-- Icono del tema inicial -->
+            </button>
+        </nav>
+    </header>
+
+    <!-- --------- MAIN --------- -->
+    <main class="main">
+
+        <!-- --------- HOME --------- -->
+        <section class="home" id="home">
+            <div class="capa-gradient"></div>
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Bienvenido a mi Portfolio</span>
+                    <h1 class="home__title">Hola, soy Nathan</h1>
+                    <h1 class="home__title2"><span>Web Developer</span></h1>
+                    <h1 class="home__title3">→ <span class="multiple-text"></span></h1>
+                </div>
+
+                <img src="assets/perfil/home.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!-- --------- ABOUT --------- -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <img src="assets/perfil/about.png" alt="" class="about__img">
+
+                <div class="about__content">
+                    <h2 class="section__title"><span class="orange__color">About</span> <span class="red__color">Me</span></h2>
+
+                    <p class="about__description">
+                        "Hola, soy Nathan Ruiz👋 Entusiasta de la tecnología y aventurero por naturaleza. Disfruto creando experiencias digitales, combinando creatividad y lógica, y fuera del código, disfruto practicando deportes o buscando nuevas aventuras que desafiar."
+                    </p>
+
+                    <div class="tabs__btns">
+                        <span class="tabs__btn tab__active" data-target="#skills">Skills</span>
+                        <span class="tabs__btn" data-target="#experience">Experience</span>
+                        <span class="tabs__btn" data-target="#education">Education</span>
+                        <span class="tabs__btn" data-target="#curriculum">CV</span>
+                        <span class="tabs__btn2" data-target="#hobbies">Hobbies</span>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="tabs__item tab__active" data-content id="skills">
+                            <div class="tabs__data grid">
+                                <div class="tabs__div">
+                                    <p>Frontend</p>
+                                    <div>
+                                        <img src="assets/iconos/icons8-html-48.png" alt="">
+                                        <img src="assets/iconos/icons8-css3-48.png" alt="">
+                                        <img src="assets/iconos/icons8-javascript-48.png" alt="">
+                                        <img src="assets/iconos/icons8-typescrit-48.png" alt="">
+                                        <img src="assets/iconos/icons8-angular-48.png" alt="">
+                                        <img src="assets/iconos/icons8-react-48.png" alt="">
+                                        <img src="assets/iconos/icons8-next-48.png" alt="">
+                                        <img src="assets/iconos/icons8-bootstrap-48.png" alt="">
+                                        <img src="assets/iconos/icons8-tailwind-48.png" alt="">
+                                        <img src="assets/iconos/icons8-jquery-48.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="tabs__div">
+                                    <p>Backend</p>
+                                    <div>
+                                        <img src="assets/iconos/icons8-node-48.png" alt="">
+                                        <img src="assets/iconos/icons8-express-48.png" alt="">
+                                        <img src="assets/iconos/icons8-nest-48.png" alt="">
+                                        <img src="assets/iconos/icons8-mysql-48.png" alt="">
+                                        <img src="assets/iconos/icons8-mongo-48.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="tabs__div">
+                                    <p>Tools, IDEs & Softwares</p>
+                                    <div>
+                                        <img src="assets/iconos/icons8-git-48.png" alt="">
+                                        <img src="assets/iconos/icons8-github-48.png" alt="">
+                                        <img src="assets/iconos/postman-48.png" alt="">
+                                        <img src="assets/iconos/vercel-white.png" alt="" class="vercel">
+                                        <img src="assets/iconos/icons8-aws-48.png" alt="">
+                                        <img src="assets/iconos/icons8-vite-48.png" alt="">
+                                        <img src="assets/iconos/icons8-VSC-48.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="tabs__div">
+                                    <p>Design</p>
+                                    <div>
+                                        <img src="assets/iconos/icons8-figma-48.png" alt="">
+                                        <img src="assets/iconos/icons8-canva-48.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__item" data-content id="experience">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Freelance Work</span>
+                                    <span>2024 - Currently</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Junior Web Developer</span> - Codenotch
+                                    <span>2023 - 2024</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tabs__item" data-content id="education">
+                            <div class="tabs__data grid">
+                                <div class="education">
+                                    <p class="tabs__description">
+                                        <span>Full Stack Web Developer</span> - Codenotch (Madrid, España)
+                                        <span>2023 - 2024</span>
+                                    </p>
+                                </div>
+                                <div class="education">
+                                    <h4 class="orange__color">Certifications</h4>
+                                    <div class="certification">
+                                        <a href="" target="_blank">Web Developer Full Stack</a>
+                                        <a href="https://drive.google.com/file/d/1nxwa2HMD-5aeyklAuuTeuCUI3ed3njYh/view?usp=sharing" target="_blank">Fundamentos del Desarrollo de Software</a>
+                                        <a href="https://drive.google.com/file/d/1m8uFNFqzLJztwJzvz8NkiTk-9uOYaCU-/view?usp=sharing" target="_blank">Figma Esencial</a>
+                                        <a href="https://drive.google.com/file/d/1_xOfCQPWRmdD8m33eDys3CcdyU7IkzfM/view?usp=drive_link" target="_blank">Figma Avanzado</a>
+                                        <a href="https://drive.google.com/file/d/1fqIKE6tpfSWIOWZS-h5avDvmqw9Oae0V/view?usp=drive_link" target="_blank">Diseño de interfaz (UI) esencial</a>
+                                        <a href="https://drive.google.com/file/d/1ZUaBfF1F0GkawlvCYXUm0kJdlpUln67U/view?usp=drive_link" target="_blank">Diseño de interfaz (UX) esencial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tabs__item" data-content id="curriculum">
+                            <div class="tabs__data grid cv">
+                                <a href="https://drive.google.com/file/d/15VYjH8zAqUqT140Yn-3MPwpWTKo61hCg/view?usp=drive_link" target="_blank" class="btn btn-submit">Visit</a>
+
+                                <a href="https://drive.google.com/uc?export=download&id=15VYjH8zAqUqT140Yn-3MPwpWTKo61hCg" target="_blank" class="btn btn-submit">Download</a>
+
+                            </div>
+                        </div>
+
+                        <div class="tabs__item" data-content id="hobbies">
+                            <div class="tabs__data">
+                                <p class="hobbies">"Not everything is <span class="code">{ code }</span>, sometimes I also like..."</p>
+
+                                <div class="image__container">
+                                    <div class="image-container">
+                                        <img src="assets/imagenes/viajar.png" alt="">
+                                        <span class="image-text2">Travel</span>
+                                    </div>
+
+                                    <div class="image-container">
+                                        <img src="assets/imagenes/buceo.png" alt="">
+                                        <span class="image-text2">Diving</span>
+                                    </div>
+
+                                    <div class="image-container">
+                                        <img src="assets/imagenes/moto.png" alt="">
+                                        <span class="image-text2">Bikes</span>
+                                    </div>
+                                </div>
+
+                                <div class="image__container">
+                                    <div class="image-container">
+                                        <img src="assets/imagenes/aventura.png" alt="">
+                                        <span class="image-text">Adventure</span>
+                                    </div>
+
+                                    <div class="image-container">
+                                        <img src="assets/imagenes/snowboard.png" alt="">
+                                        <span class="image-text">Snowboard</span>
+                                    </div>
+
+                                    <div class="image-container">
+                                        <img src="assets/imagenes/naturaleza.png" alt="">
+                                        <span class="image-text">Nature</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------- SERVICES --------- -->
+        <section class="services section" id="services">
+            <h2 class="section__title"><span class="orange__color">My</span> <span class="red__color">Services</span></h2>
+            <p class="section__description">
+                "Mi enfoque es crear soluciones efectivas que se adapten a cada cliente y ayuden a alcanzar sus objetivos en línea."
+            </p>
+
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <div class="services__icon-title">
+                        <i class="uil uil-desktop services__icon"></i>
+                        <h3 class="services__title">Website</h3>
+                    </div>
+
+                    <p class="services__description">
+                        "Creo sitios web atractivos y funcionales, enfocándome en el desarrollo de soluciones a medida que mejoran la experiencia del usuario. Utilizo tecnologías modernas para garantizar un rendimiento óptimo y una integración fluida."
+                    </p>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__icon-title">
+                        <i class="uil uil-icons services__icon"></i>
+                        <h3 class="services__title">Design</h3>
+                    </div>
+
+                    <p class="services__description">
+                        "Desarrollo diseños visuales impactantes y funcionales, centrándome en la usabilidad y la estética. Mi proceso incluye la investigación del usuario y la creación de prototipos, asegurando que cada diseño sea atractivo, intuitivo y fácil de usar."
+                    </p>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__icon-title">
+                        <i class="uil uil-comparison services__icon"></i>
+                        <h3 class="services__title">Optimization</h3>
+                    </div>
+                    
+                    <p class="services__description">
+                        "Realizo mejoras continuas en la eficiencia de sitios web y aplicaciones, asegurando tiempos de carga rápidos y un rendimiento óptimo y fluido. Mi enfoque se basa en analizar métricas y aplicar ajustes que optimizan la experiencia del usuario."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------- PORTFOLIO --------- -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title"><span class="orange__color">My</span> <span class="red__color">Recent</span> <span class="orange__color">Works</span></h2>
+
+            <p class="section__description">
+                "Hitos clave que reflejan mi constante evolución profesional en el mundo del desarrollo y diseño creativo e innovador."
+            </p>
+
+            <div class="portfolio__container container">
+                <div class="card">
+                    <img src="assets/proyectos/biblioteca.png" alt="" class="card-img">
+                    <div class="card-body">
+                        <h1 class="card-title">BibliotecaSwap</h1>
+
+                        <p class="card-subtitle">Aplicación web</p>
+
+                        <div class="card-icons">
+                            <p class="card-info">Tecnologías</p>
+                            <div>
+                                <img src="assets/iconos/icons8-html-48.png" alt="">
+                                <img src="assets/iconos/icons8-css3-48.png" alt="">
+                                <img src="assets/iconos/icons8-javascript-48.png" alt="">
+                                <img src="assets/iconos/icons8-typescrit-48.png" alt="">
+                                <img src="assets/iconos/icons8-angular-48.png" alt="">
+                                <img src="assets/iconos/icons8-bootstrap-48.png" alt="">
+                                <img src="assets/iconos/icons8-node-48.png" alt="">
+                                <img src="assets/iconos/icons8-express-48.png" alt="">
+                                <img src="assets/iconos/icons8-mysql-48.png" alt="">
+                                <img src="assets/iconos/icons8-git-48.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card-div">
+                            <button class="btn2"><a href="https://github.com/nathanruhe/BibliotecaSwap-Front" target="_blank">Github</a></button>
+                            <button class="btn2"><a href="https://www.youtube.com/watch?v=t0yTQiyPHFE&t=2s" target="_blank">Demo</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/proyectos/imdb.png" alt="" class="card-img">
+                    <div class="card-body">
+                        <h1 class="card-title">IMDB Películas</h1>
+
+                        <p class="card-subtitle">Manejo del DOM</p>
+
+                        <div class="card-icons">
+                            <p class="card-info">Tecnologías</p>
+                            <div>
+                                <img src="assets/iconos/icons8-html-48.png" alt="">
+                                <img src="assets/iconos/icons8-css3-48.png" alt="">
+                                <img src="assets/iconos/icons8-javascript-48.png" alt="">
+                                <img src="assets/iconos/icons8-git-48.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card-div">
+                            <button class="btn2"><a href="https://github.com/nathanruhe/maquetacion/blob/main/proyecto/index.html" target="_blank">Github</a></button>
+                            <button class="btn2"><a href="https://www.youtube.com/watch?v=uUBbtBtGTwQ&t=3s" target="_blank">Demo</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/proyectos/codenotch.png" alt="" class="card-img">
+                    <div class="card-body">
+                        <h1 class="card-title">Web Codenotch</h1>
+
+                        <p class="card-subtitle">Maquetar pagina</p>
+
+                        <div class="card-icons">
+                            <p class="card-info">Tecnologías</p>
+                            <div>
+                                <img src="assets/iconos/icons8-html-48.png" alt="">
+                                <img src="assets/iconos/icons8-css3-48.png" alt="">
+                                <img src="assets/iconos/icons8-git-48.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card-div">
+                            <button class="btn2"><a href="https://github.com/nathanruhe/maquetacion/tree/main/codenotchWeb" target="_blank">Github</a></button>
+                            <button class="btn2"><a href="https://www.youtube.com/watch?v=PzSmnlGu50A" target="_blank">Demo</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/proyectos/mysql.png" alt="" class="card-img">
+                    <div class="card-body">
+                        <h1 class="card-title">Proyecto MySQL</h1>
+
+                        <p class="card-subtitle">Aplicación Web</p>
+
+                        <div class="card-icons">
+                            <p class="card-info">Tecnologías</p>
+                            <div>
+                                <img src="assets/iconos/icons8-html-48.png" alt="">
+                                <img src="assets/iconos/icons8-css3-48.png" alt="">
+                                <img src="assets/iconos/icons8-javascript-48.png" alt="">
+                                <img src="assets/iconos/icons8-typescrit-48.png" alt="">
+                                <img src="assets/iconos/icons8-angular-48.png" alt="">
+                                <img src="assets/iconos/icons8-bootstrap-48.png" alt="">
+                                <img src="assets/iconos/icons8-node-48.png" alt="">
+                                <img src="assets/iconos/icons8-express-48.png" alt="">
+                                <img src="assets/iconos/icons8-mysql-48.png" alt="">
+                                <img src="assets/iconos/icons8-git-48.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card-div">
+                            <button class="btn2"><a href="https://github.com/nathanruhe/MyBooks" target="_blank">Github</a></button>
+                            <button class="btn2"><a href="https://www.youtube.com/watch?v=GllEM9Nc_YU" target="_blank">Demo</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/proyectos/pokemon.png" alt="" class="card-img">
+                    <div class="card-body">
+                        <h1 class="card-title">Api Pokémon</h1>
+
+                        <p class="card-subtitle">Consumo APIs externas</p>
+
+                        <div class="card-icons">
+                            <p class="card-info">Tecnologías</p>
+                            <div>
+                                <img src="assets/iconos/icons8-html-48.png" alt="">
+                                <img src="assets/iconos/icons8-css3-48.png" alt="">
+                                <img src="assets/iconos/icons8-javascript-48.png" alt="">
+                                <img src="assets/iconos/icons8-git-48.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card-div">
+                            <button class="btn2"><a href="https://github.com/nathanruhe/node/tree/main/tema5" target="_blank">Github</a></button>
+                            <button class="btn2"><a href="https://www.youtube.com/watch?v=xzI5Lsk5BEE" target="_blank">Demo</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/proyectos/mongodb.png" alt="" class="card-img">
+                    <div class="card-body">
+                        <h1 class="card-title">Proyecto MongoDB</h1>
+
+                        <p class="card-subtitle">Aplicación Web</p>
+
+                        <div class="card-icons">
+                            <p class="card-info">Tecnologías</p>
+                            <div>
+                                <img src="assets/iconos/icons8-html-48.png" alt="">
+                                <img src="assets/iconos/icons8-css3-48.png" alt="">
+                                <img src="assets/iconos/icons8-javascript-48.png" alt="">
+                                <img src="assets/iconos/icons8-typescrit-48.png" alt="">
+                                <img src="assets/iconos/icons8-angular-48.png" alt="">
+                                <img src="assets/iconos/icons8-bootstrap-48.png" alt="">
+                                <img src="assets/iconos/icons8-node-48.png" alt="">
+                                <img src="assets/iconos/icons8-express-48.png" alt="">
+                                <img src="assets/iconos/icons8-mongo-48.png" alt="">
+                                <img src="assets/iconos/icons8-git-48.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card-div">
+                            <button class="btn2"><a href="https://github.com/nathanruhe/MongoDB" target="_blank">Github</a></button>
+                            <button class="btn2"><a href="https://www.youtube.com/watch?v=tg7RRUXBvWY&t=2s" target="_blank">Demo</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------- CONTACT --------- -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h2 class="section__title"><span class="orange__color">Let's</span> <span class="red__color">Chat</span></h2>
+
+                    <p class="contact__description">
+                        "Tus ideas son el primer paso, y juntos las transformaremos en experiencias que sorprendan, cautiven y marquen la diferencia."
+                    </p>
+
+                    <form class="contact__form" id="contact-form">
+                        <div class="contact__form-input">
+                            <input type="text" name="name" placeholder="* Your Name" class="contact__input" id="contact-name">
+                        </div>
+
+                        <div class="contact__form-input">
+                            <input type="email" name="email" placeholder="* Your Email" class="contact__input" id="contact-email">
+                        </div>
+
+                        <div class="contact__form-input">
+                            <input type="text" name="subject" placeholder="* Write a Subject" class="contact__input" id="contact-subject">
+                        </div>
+
+                        <div class="contact__form-input">
+                            <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="* Your Message"></textarea>
+                        </div>
+
+                        <input type="submit" value="Contact" class="btn btn-submit">
+
+                        <p class="error__message" id="error-message"></p>
+                    </form>
+                </div>
+
+                <img src="assets/perfil/contact-black.png" alt="" class="contact__img">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- --------- FOOTER --------- -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <a href="index.html" class="footer__logo">N<span>a</span>than</a>
+
+            <div class="footer__socials">
+                <a href="https://www.linkedin.com/in/nathanruhe" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/nathanruhe" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/nathanruhe" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+
+                <a href="https://discord.com/users/1102680805261725767" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-discord fa-sm"></i>
+                </a>
+            </div>
+
+            <p class="footer__copyright footer__logo">&copy; <span>2024</span> · All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- --------- SCROLL UP --------- -->
+     <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"></i>
+     </a>
+
+    <!-- --------- EMAIL JS --------- -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- --------- TYPED JS --------- -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- --------- JS --------- -->
+    <script src="script.js"></script>
+
+</body>
+</html>
