@@ -718,13 +718,14 @@ a {
 }
 
 .card-subtitle {
-    margin-top: -30px;
+    margin-top: -22px;
     text-align: center;
 }
 
 .card-title {
     text-align: center;
     font-weight: var(--weight-500);
+    font-size: 22px;
 }
 
 .card-info {
